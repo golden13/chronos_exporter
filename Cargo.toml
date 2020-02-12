@@ -1,0 +1,18 @@
+[package]
+name = "rust_chronos_exporter"
+version = "0.0.1"
+edition = "2018"
+authors = ["Egor Spivac <golden13@gmail.com>"]
+
+[dependencies]
+config = "^0.9"
+prometheus_exporter_base = "0.5"
+clap = "^2.33.0"
+log = "^0.4.8"
+env_logger = "^0.7.1"
+sysinfo = "^0.9.6"
+gethostname = "^0.2.0"
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_json = "^1.0.44"
+reqwest = "^0.9.22"

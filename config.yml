@@ -1,0 +1,12 @@
+# Basic Auth for Chronos
+username: "user"
+password: "pass"
+
+# Chronos server URL with trailing slash
+chronos_host: "http://chronos.myserver.com/"
+
+# Get Job Status API path
+get_job_status_path: "v1/scheduler/jobs/summary"
+
+# Return information only for enabled jobs
+skip_disabled_jobs: 1
