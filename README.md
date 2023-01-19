@@ -1,11 +1,11 @@
 # Prometheus Chronos Jobs Exporter
-Prometheus exporter for [Chronos](https://github.com/mesos/chronos) jobs statuses.
+Prometheus exporter for [Chronos](https://github.com/mesos/chronos) jobs.
 
-Uses [Chronos](https://github.com/mesos/chronos) API to get job list with statuses
+Uses [Chronos](https://github.com/mesos/chronos) API to get the job list.
  
 *Written in [Rust](https://github.com/rust-lang/rust)*
 
-*Built using: [Prometheus exporter base](https://github.com/MindFlavor/prometheus_exporter_base)*
+*Built using [Prometheus exporter base](https://github.com/MindFlavor/prometheus_exporter_base)*
 
 # Configuration
 *config.yml*
